@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Menu</Menu></title>
+    <script src = "/socket.io/socket.io.js" defer></script>
+    <script type ="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to hand cricket</h1>
+    <form class="form" method='get' action="/room">
+        <label >RoomId</label><br>
+        <input type="text" id="roomId" name="roomId"><br>
+        <input type="submit" id="create" value="Create room" >
+        <input type="submit" value="Join room">
+    </form>
+</body>
+</html>
